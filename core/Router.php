@@ -15,7 +15,7 @@ class Router
         $url = trim($url, '/');
         $params = explode('/', $url);
 
-        $request->controller = $params[0];
+        $request->controller = isset($params[0]) ? $params[0] : 'home';
         $request->action = isset($params[1]) ? $params[1] : 'index';
         $request->params = array_slice($params, 2);
 
