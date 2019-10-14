@@ -1,7 +1,7 @@
 <?php
 
 
-class PagesController extends Controller
+class AnnouncesController extends Controller
 {
 
     function index(){
@@ -28,7 +28,7 @@ class PagesController extends Controller
 
         if($slug === null){
 
-           redirect('/pages/read/');
+           redirect('/announces/read/');
 
         }else{
 

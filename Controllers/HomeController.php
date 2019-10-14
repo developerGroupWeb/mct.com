@@ -3,9 +3,7 @@
 
 class HomeController extends Controller
 {
-    function view($name){
-       $this->render('index');
+    public function index(){
+        $this->render('index');
     }
-
-
 }

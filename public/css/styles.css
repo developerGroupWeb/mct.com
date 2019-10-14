@@ -1,3 +1,111 @@
-body{
-    background: #000000;
+
+#search-section ul{
+    position: absolute;
+    z-index: 100;
+}
+#search-section ul li{
+    padding: 7px;
+}
+
+#search-section ul li:hover{
+    cursor: pointer;
+    background-color: rgb(216, 228, 240);
+}
+
+#categories a{
+    text-decoration: none;
+    color: white;
+}
+
+#categories h5{
+    background-color: rgba(22, 135, 233, 0.486);
+    padding: 8px; 
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#categories a:hover h5{
+    background-color: rgba(22, 135, 233, 0.952);
+    padding: 8px; 
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+#categories .box1{
+    background-image: url(/images/Entretien_Embauche_Blog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box2{
+    background-image: url(/images/BARTOfficialApp_ServiceAdvisories-365x207.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box3{
+    background-image: url(/images/SERVICE-FORMATION-2-1030x617.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box4{
+    background-image: url(/images/vente-materiel-professionnel-occasion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box5{
+    background-image: url(/images/achat-vente-rayonnage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box6{
+    background-image: url(/images/14546516.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box7{
+    background-image: url(/images/owners-service_plans-service_and_maintenance_plans-16_9-2500x1406.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#categories .box8{
+    background-image: url(/images/DSC00137.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.form-control-file{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.form-control-file + label{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(192, 192, 192);
+    display: inline-block;
+    cursor: pointer;
+    padding: 30px 60px;
+}
+
+.form-control-file:focus + label,
+.form-control-file:hover + label{
+    background-color: rgb(59, 72, 255);
+}
+
+#all-annonces a{
+    text-decoration: none;
 }
